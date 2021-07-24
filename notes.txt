@@ -1,0 +1,25 @@
+These are some notes to explain the functions used in the javascript program application.
+Sometimes multiple reloads are required to clear cache 
+These are comments on the main javascript program 
+I brought them here to simplify my work
+
+//document.querySelector('class name') // this is a way to select html elements in javascript
+//document.querySelector('class name').textContent this will set the text in the DOM view of the browser
+//document.querySelector('class name').textContent = some value
+// The above statement will modify the text
+// all of this works
+
+// document.querySelector('class name').addEventListener('click or whatever',function() {
+
+//})
+// within the function, I can write what I want or I can call a seperate function
+
+// Let me try it out 
+
+/*function randomFunction() {
+    console.log("Let us try out the event handler")
+    alert("Please Work")
+}
+
+document.querySelector('.check').addEventListener("click", randomFunction);
+Great so all of this works*/
